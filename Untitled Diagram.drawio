@@ -48,9 +48,6 @@
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-8" value="&lt;div&gt;Review Triage&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
           <mxGeometry x="25" y="305" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-10" value="&lt;div&gt;Delete Triage&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
-          <mxGeometry x="145" y="305" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-11" target="CpTIfCaLCPEgQuCKB-eE-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -68,16 +65,6 @@
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-4" target="CpTIfCaLCPEgQuCKB-eE-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="131" y="142" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-4" target="CpTIfCaLCPEgQuCKB-eE-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="136" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-45" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CpTIfCaLCPEgQuCKB-eE-29">
-          <mxGeometry x="-0.7059" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-31" value="Register" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
