@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.16">
   <diagram name="Page-1" id="iBJQancwVzPZnX72XmY8">
-    <mxGraphModel dx="1500" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="778" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="40" y="400" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-2" value="Mister ED" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="60" width="270" height="740" as="geometry" />
+          <mxGeometry x="200" y="60" width="310" height="740" as="geometry" />
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-3" target="CpTIfCaLCPEgQuCKB-eE-31">
           <mxGeometry relative="1" as="geometry" />
@@ -18,16 +18,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-3" value="Authenticate/Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
+        <mxCell id="CpTIfCaLCPEgQuCKB-eE-3" value="Authenticate" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
           <mxGeometry x="60" y="144" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-4" target="CpTIfCaLCPEgQuCKB-eE-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-39" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CpTIfCaLCPEgQuCKB-eE-15">
-          <mxGeometry x="-0.2561" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-4" target="CpTIfCaLCPEgQuCKB-eE-3">
           <mxGeometry relative="1" as="geometry" />
@@ -37,7 +29,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-4" value="View triage(s)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
+        <mxCell id="CpTIfCaLCPEgQuCKB-eE-4" value="Triages" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
           <mxGeometry x="60" y="204" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-8" target="CpTIfCaLCPEgQuCKB-eE-12">
@@ -50,25 +42,14 @@
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="64.76190476190482" y="480" as="targetPoint" />
+            <mxPoint x="79.76190476190482" y="382" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-8" value="&lt;div&gt;Review Triage&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
-          <mxGeometry x="10" y="403" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-9" target="CpTIfCaLCPEgQuCKB-eE-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-40" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CpTIfCaLCPEgQuCKB-eE-27">
-          <mxGeometry x="-0.186" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-9" value="Select Patient" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
-          <mxGeometry x="60" y="264" width="110" height="30" as="geometry" />
+          <mxGeometry x="25" y="305" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-10" value="&lt;div&gt;Delete Triage&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
-          <mxGeometry x="130" y="403" width="110" height="30" as="geometry" />
+          <mxGeometry x="145" y="305" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-11" target="CpTIfCaLCPEgQuCKB-eE-57">
           <mxGeometry relative="1" as="geometry" />
@@ -79,33 +60,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-11" value="Put patient in ED queue" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
-          <mxGeometry x="10" y="550" width="130" height="40" as="geometry" />
+          <mxGeometry x="25" y="452" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-12" value="Advise patient on next steps (not ED)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
-          <mxGeometry x="130" y="473" width="130" height="61" as="geometry" />
+          <mxGeometry x="165" y="375" width="130" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-26" target="CpTIfCaLCPEgQuCKB-eE-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="CpTIfCaLCPEgQuCKB-eE-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-4" target="CpTIfCaLCPEgQuCKB-eE-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="131" y="142" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-26" target="CpTIfCaLCPEgQuCKB-eE-10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="CpTIfCaLCPEgQuCKB-eE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CpTIfCaLCPEgQuCKB-eE-2" source="CpTIfCaLCPEgQuCKB-eE-4" target="CpTIfCaLCPEgQuCKB-eE-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="136" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-45" value="Extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CpTIfCaLCPEgQuCKB-eE-29">
           <mxGeometry x="-0.7059" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-26" value="Select Triage" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
-          <mxGeometry x="60" y="324" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-31" value="Register" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
           <mxGeometry x="60" y="70" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-57" value="Check Ed wait time" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="CpTIfCaLCPEgQuCKB-eE-2">
-          <mxGeometry x="20" y="630" width="130" height="40" as="geometry" />
+          <mxGeometry x="35" y="532" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-47" value="Refer Patient to ED" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="543" width="110" height="30" as="geometry" />
+          <mxGeometry x="235" y="445" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-48" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="CpTIfCaLCPEgQuCKB-eE-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -130,15 +112,9 @@
             <mxPoint x="270" y="229" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-52" value="View" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CpTIfCaLCPEgQuCKB-eE-50">
+        <mxCell id="CpTIfCaLCPEgQuCKB-eE-52" value="View/Select" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CpTIfCaLCPEgQuCKB-eE-50">
           <mxGeometry x="-0.1627" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CpTIfCaLCPEgQuCKB-eE-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="CpTIfCaLCPEgQuCKB-eE-31">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="390" as="sourcePoint" />
-            <mxPoint x="240" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CpTIfCaLCPEgQuCKB-eE-47" target="CpTIfCaLCPEgQuCKB-eE-11">
@@ -157,6 +133,17 @@
         </mxCell>
         <mxCell id="CpTIfCaLCPEgQuCKB-eE-61" value="View" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CpTIfCaLCPEgQuCKB-eE-60">
           <mxGeometry x="-0.2345" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpTIfCaLCPEgQuCKB-eE-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="CpTIfCaLCPEgQuCKB-eE-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="450" as="sourcePoint" />
+            <mxPoint x="270" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpTIfCaLCPEgQuCKB-eE-64" value="View" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CpTIfCaLCPEgQuCKB-eE-63">
+          <mxGeometry x="-0.1627" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
